@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section id="header">
+      <a href="#"
+        ><img src="img/logo.jpg" class="logo" width="70px" height="50px"
+      /></a>
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Events.html">Events</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <a href="login.html"><button class="white active">Log In</button></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="user.html"><button class="white">Log In</button></a>
+        <i id="bar" class="fa-solid fa-bars"></i>
+      </div>
+    </section>
+
+    <div class="login section-p1">
+      <form action="" class="login__form">
+        <h1 class="login__title">Log In</h1>
+        <div class="login__content">
+          <div class="login__box">
+            <i class="fa-solid fa-user"></i>
+            <div class="login__box-input">
+              <input type="email" class="login__input" placeholder="  Email" />
+            </div>
+          </div>
+
+          <div class="login__box">
+            <i class="fa-solid fa-lock"></i>
+            <div class="login__box-input">
+              <input
+                type="password"
+                class="login__input"
+                placeholder="  Password"
+                id="login-pwd"
+              />
+              <i class="fa-regular fa-eye-slash" id="login-eye"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="login__check">
+          <div class="login__check-group">
+            <input type="checkbox" class="login__check-input" />
+            <label for="" class="login__check-label">Remember Me</label>
+          </div>
+
+          <a href="#" class="login__forgot">Forgot Password?</a>
+        </div>
+        <button class="login__button normal">Login</button>
+
+        <h4 class="register">
+          Don't have an account?<a href="#"> Register</a>
+        </h4>
+      </form>
+    </div>
+
+    <footer>
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms and Conditions</a>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">previously Booked Events</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <i class="fa-brands fa-app-store-ios fa-2xl"></i>
+          <i class="fa-brands fa-google-play fa-2xl"></i>
+        </div>
+        <p>Secure Payment Getaways</p>
+        <div class="pay">
+          <i class="fa-brands fa-cc-mastercard fa-2xl"></i>
+          <i class="fa-brands fa-cc-visa fa-2xl"></i>
+          <i class="fa-brands fa-cc-paypal fa-2xl"></i>
+          <i class="fa-brands fa-cc-amex fa-2xl"></i>
+        </div>
+      </div>
+      <div class="copywright">
+        <p><i class="fa-regular fa-copyright"></i> 2023, Anatec pvt ltd</p>
+      </div>
+    </footer>
+    <script src="scriptu.js"></script>
+  </body>
+</html>

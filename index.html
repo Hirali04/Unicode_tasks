@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section id="header">
+      <a href="#"
+        ><img src="img/logo.jpg" class="logo" width="70px" height="50px"
+      /></a>
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="#feature-events" id="evebd">Events</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <a href="user.html"><button class="white">Log In</button></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="user.html"><button class="white">Log In</button></a>
+        <i id="bar" class="fa-solid fa-bars"></i>
+      </div>
+    </section>
+
+    <section id="event" class="section-p1">
+      <div class="head">
+        <div class="heading">
+          <h2>Upcoming Events</h2>
+          <p>Be sure not to miss these events!</p>
+        </div>
+        <div class="search">
+          <div class="search_container">
+            <input
+              type="text"
+              id="searchInput"
+              placeholder="search for Events"
+            />
+          </div>
+          <ul class="event_list visible" id="eventList">
+            <li class="e"><p>Rhea Kapadia Live</p></li>
+            <li class="e"><p>Sunburn Festival</p></li>
+            <li class="e"><p>Business Confluence</p></li>
+            <li class="e"><p>Lantern show</p></li>
+            <li class="e"><p>Stargazing</p></li>
+            <li class="e"><p>Marathon</p></li>
+            <li class="e"><p>WFL</p></li>
+            <li class="e"><p>Sound Of Music</p></li>
+            <li class="e"><p>TRevor Noah - Fun it is</p></li>
+          </ul>
+        </div>
+
+        <!--<div class="filters">
+          <label for="sortBy">Sort by:</label>
+          <select id="sortBy">
+            <option value="genre">
+              Genre
+              <ul class="e_list" id="eList">
+                <li><p>Comedy Shows</p></li>
+                <li><p>Musical Shows</p></li>
+                <li><p>Concerts</p></li>
+                <li><p>Movies</p></li>
+              </ul>
+            </option>
+            <option value="date">Date</option>
+            <option value="location">Location</option>
+          </select>
+        </div>-->
+      </div>
+
+      <div class="eve-container">
+        <div class="eve">
+          <img src="img/events/e1.jpeg" alt="" width="250px" height="200px" />
+          <div class="desc">
+            <h4>Rhea Kapadia Live</h4>
+            <p>Dome, NSCI</p>
+            <p><i class="fa-solid fa-indian-rupee-sign"></i>1000 onwards</p>
+          </div>
+          <a href="#"><i class="fa-sharp fa-solid fa-circle-info info"></i></a>
+        </div>
+        <div class="eve">
+          <img src="img/events/e2.jpeg" alt="" width="250px" height="200px" />
+          <div class="desc">
+            <h4>Sunburn Festival</h4>
+            <p>Mahalaxmi Grounds</p>
+            <p><i class="fa-solid fa-indian-rupee-sign"></i>2000 onwards</p>
+          </div>
+          <a href="#"><i class="fa-sharp fa-solid fa-circle-info info"></i></a>
+        </div>
+        <div class="eve">
+          <img src="img/events/e3.jpeg" alt="" width="250px" height="200px" />
+          <div class="desc">
+            <h4>Business Confluence</h4>
+            <p>St.Regis</p>
+            <p><i class="fa-solid fa-indian-rupee-sign"></i>1000/-</p>
+          </div>
+          <a href="#"><i class="fa-sharp fa-solid fa-circle-info info"></i></a>
+        </div>
+        <div class="eve">
+          <a href="event.html" style="text-decoration: none;"><img src="img/events/e4.jpeg" alt="" width="250px" height="200px" />
+          <div class="desc">
+            <h4>Sound of Music</h4>
+            <p>Nita Mukesh Ambani Cultural Centre</p>
+            <p><i class="fa-solid fa-indian-rupee-sign"></i>2000 onwards</p></a>
+          
+          </div>
+          <a href="#"><i class="fa-sharp fa-solid fa-circle-info info"></i></a>
+        </div>
+        <div class="eve">
+          <img src="img/events/e5.jpeg" alt="" width="250px" height="200px" />
+          <div class="desc">
+            <h4 class="ne">Fireworks Show</h4>
+            <p class="ve">Grand Hyatt</p>
+            <div class="price">
+              <p ><i class="fa-solid fa-indian-rupee-sign"></i></p>
+            <p class="pe"></p>
+            <p>0 onwards</p>
+          </div>
+        </div>
+          <a href="#"><i class="fa-sharp fa-solid fa-circle-info info"></i></a>
+        </div>
+        <div class="eve">
+          <img src="img/events/e6.jpeg" alt="" width="250px" height="200px" />
+          <div class="desc">
+            <h4 class="ne"></h4>
+            <p class="ve"></p>
+            <div class="price">
+              <p ><i class="fa-solid fa-indian-rupee-sign"></i></p>
+            <p class="pe"></p>
+            <p>0 onwards</p>
+          </div>
+          </div>
+          <a href="#"><i class="fa-sharp fa-solid fa-circle-info info"></i></a>
+        </div>
+        <div class="eve">
+          <img src="img/events/e7.jpeg" alt="" width="250px" height="200px" />
+          <div class="desc">
+            <h4 class="ne"></h4>
+            <p class="ve"></p>
+            <div class="price">
+              <p ><i class="fa-solid fa-indian-rupee-sign"></i></p>
+            <p class="pe"></p>
+            <p>0 onwards</p>
+          </div>
+        </div>
+          <a href="#"><i class="fa-sharp fa-solid fa-circle-info info"></i></a>
+        </div>
+        <div class="eve">
+          <img src="img/events/e8.jpeg" alt="" width="250px" height="200px" />
+          <div class="desc">
+            <h4 class="ne"></h4>
+            <p class="ve"></p>
+            <div class="price">
+              <p ><i class="fa-solid fa-indian-rupee-sign"></i></p>
+            <p class="pe"></p>
+            <p>0 onwards</p>
+          </div>
+          </div>
+          <a href="#"><i class="fa-sharp fa-solid fa-circle-info info"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="movie" class="section-p1 section-m1">
+      <h2>Recommended Movies</h2>
+      <p>Binge-worthy movies!(not sure)</p>
+      <div class="movie-container">
+        <div class="mov fade first">
+          <img src="img/movies/m1.jpeg" alt="" width="800px" height="400px" />
+          <div class="des">
+            <h4>Barbie</h4>
+            <p>90% Rotten Tomatoes</p>
+          </div>
+        </div>
+        <div class="mov fade">
+          <img src="img/movies/m2.jpeg" alt="" width="800px" height="400px" />
+          <div class="des">
+            <h4>Oppenhimer</h4>
+            <p>95% Rotten Tomatoes</p>
+          </div>
+        </div>
+        <div class="mov fade">
+          <img src="img/movies/m3.jpeg" alt="" width="800px" height="400px" />
+          <div class="des">
+            <h4>Mission Impossible</h4>
+            <p>80% Rotten Tomatoes</p>
+          </div>
+        </div>
+        <div class="mov fade">
+          <img src="img/movies/m4.jpeg" alt="" width="800px" height="400px" />
+          <div class="des">
+            <h4>Spider-man Homecoming</h4>
+            <p>85% Rotten Tomatoes</p>
+          </div>
+        </div>
+        <div class="mov fade">
+          <img src="img/movies/m5.jpeg" alt="" width="800px" height="400px" />
+          <div class="des">
+            <h4>Meg 2</h4>
+            <p>70% Rotten Tomatoes</p>
+          </div>
+        </div>
+        <div class="mov fade">
+          <img src="img/movies/m6.jpeg" alt="" width="800px" height="400px" />
+          <div class="des">
+            <h4>Talk to me</h4>
+            <p>75% Rotten Tomatoes</p>
+          </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+      </div>
+    </section>
+
+    <section id="banner">
+      <div class="text">
+        <h4>Coupon Code:OFFER100</h4>
+        <p>
+          Apply this coupon to get <span>50% off</span> upto
+          <i class="fa-solid fa-indian-rupee-sign"></i>100
+        </p>
+      </div>
+    </section>
+
+    <section id="category" class="section-m1 section-p1">
+      <h2>Browse Events by Category</h2>
+      <div class="cat">
+        <img src="img/categories/c1.jpg" alt="" />
+        <img src="img/categories/c2.jpg" alt="" />
+        <img src="img/categories/c3.jpg" alt="" />
+        <img src="img/categories/c4.jpg" alt="" />
+        <img src="img/categories/c5.jpg" alt="" />
+        <img src="img/categories/c6.jpg" alt="" />
+      </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+      <div class="newstxt">
+        <h4>Sign Up For Newsletters</h4>
+        <p>
+          Get E-mail updates about latest events and
+          <span>special offers</span>
+        </p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="your email address" />
+        <button class="normal">Sign Up</button>
+      </div>
+    </section>
+
+    <footer>
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms and Conditions</a>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">previously Booked Events</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <i class="fa-brands fa-app-store-ios fa-2xl"></i>
+          <i class="fa-brands fa-google-play fa-2xl"></i>
+        </div>
+        <p>Secure Payment Getaways</p>
+        <div class="pay">
+          <i class="fa-brands fa-cc-mastercard fa-2xl"></i>
+          <i class="fa-brands fa-cc-visa fa-2xl"></i>
+          <i class="fa-brands fa-cc-paypal fa-2xl"></i>
+          <i class="fa-brands fa-cc-amex fa-2xl"></i>
+        </div>
+      </div>
+      <div class="copywright">
+        <p><i class="fa-regular fa-copyright"></i> 2023, Eventree pvt ltd</p>
+      </div>
+    </footer>
+    <script src="scripth.js"></script>
+  </body>
+</html>
