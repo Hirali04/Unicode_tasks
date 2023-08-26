@@ -1,0 +1,35 @@
+body{
+  background-color: rgb(42, 40, 40);
+  color: #eeecec;
+}
+
+main{
+  padding-top: 60px;
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+button{
+  background-color: transparent;
+  color: rgb(225, 229, 232);
+  width: 100px;
+  margin-top: 20px;
+  border: 0;
+  cursor: pointer;
+}
+
+button.restart{
+  border-radius: 10px;
+  font-size: 25px;
+  background-color: rgb(225, 229, 232);
+  color:rgb(42, 40, 40) ;
+  width: 170px;
+  line-height: 50px;
+}
+
+button.restart svg{
+  width: 60px;
+  height: 3.5rem;
+  float: left;
+}
